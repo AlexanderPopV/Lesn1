@@ -1,2 +1,2 @@
 Number1,Number2=input().split()
-print(Number1+Number2)
+print(float(Number1)+float(Number2))
