@@ -1,0 +1,43 @@
+class Human:
+
+    default_name = ""
+    default_age=0
+    def __init__(self,name,age):
+        self.default_name=name
+        self.default_age=age
+
+    def info(self):
+        print(name, age, hous, money)
+
+    @staticmethod
+    def default_info(self):
+        print(default_name, default_age)
+    def make_deal(self, hous, prise):
+        self.money = money - prise
+
+    def earn_money(self,money):
+        self.money = money
+
+    def buy_hous(self, hous, discount):
+        if money > price:
+            print(men.make_deal)
+        else:
+            print('Бедность')
+
+
+class Hous:
+    def __init__(self, area, price):
+        self.area = area
+        self.price = price
+
+    def final_price(self, price, discount):
+        self.price = price * discount
+        return price
+
+
+class SmallHous(Hous):
+    def __init__(self):
+        self.area = 42
+men=Human(7,8)
+h=Hous(42,30)
+print(men.default_name)
